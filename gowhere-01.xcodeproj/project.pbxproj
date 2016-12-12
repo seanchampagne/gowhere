@@ -1,0 +1,464 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		8B51F6F51D25FD09008556FA /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B51F6F41D25FD09008556FA /* AppDelegate.swift */; };
+		8B51F6F71D25FD09008556FA /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B51F6F61D25FD09008556FA /* ViewController.swift */; };
+		8B51F6FC1D25FD09008556FA /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8B51F6FB1D25FD09008556FA /* Assets.xcassets */; };
+		8B51F6FF1D25FD09008556FA /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8B51F6FD1D25FD09008556FA /* LaunchScreen.storyboard */; };
+		8B51F7071D25FDE9008556FA /* Podfile in Resources */ = {isa = PBXBuildFile; fileRef = 8B51F7061D25FDE9008556FA /* Podfile */; };
+		8B51F7091D2609F1008556FA /* MapKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8B51F7081D2609F1008556FA /* MapKit.framework */; };
+		8B51F70B1D261B8F008556FA /* BarAPI.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B51F70A1D261B8F008556FA /* BarAPI.swift */; };
+		8B51F70D1D26210B008556FA /* Venue.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B51F70C1D26210B008556FA /* Venue.swift */; };
+		8B51F70F1D262321008556FA /* BarAnnotation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B51F70E1D262321008556FA /* BarAnnotation.swift */; };
+		8B51F7171D26CF33008556FA /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B51F7161D26CF33008556FA /* HomeViewController.swift */; };
+		8B51F7191D26D1A5008556FA /* GoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B51F7181D26D1A5008556FA /* GoViewController.swift */; };
+		8BE4D3251D87624100FC501B /* FoodViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8BE4D3241D87624100FC501B /* FoodViewController.swift */; };
+		8BE4D3271D8765EE00FC501B /* RestaurantAPI.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8BE4D3261D8765EE00FC501B /* RestaurantAPI.swift */; };
+		8BE4D3291D876DEC00FC501B /* RestaurantAnnotation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8BE4D3281D876DEC00FC501B /* RestaurantAnnotation.swift */; };
+		8BE4D32C1D876F2B00FC501B /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8BE4D32A1D876F2B00FC501B /* Main.storyboard */; };
+		8BE4D32E1D876F5800FC501B /* MapViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8BE4D32D1D876F5800FC501B /* MapViewController.swift */; };
+		E8402A824C0FA9AE78456FA0 /* Pods_gowhere_01.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5F7DC3ADCB7A64452A4337F1 /* Pods_gowhere_01.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		50FEF910DD76F69190CA6901 /* Pods-gowhere-01.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-gowhere-01.release.xcconfig"; path = "Pods/Target Support Files/Pods-gowhere-01/Pods-gowhere-01.release.xcconfig"; sourceTree = "<group>"; };
+		5F7DC3ADCB7A64452A4337F1 /* Pods_gowhere_01.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_gowhere_01.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		8B51F6F11D25FD09008556FA /* gowhere-01.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "gowhere-01.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		8B51F6F41D25FD09008556FA /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		8B51F6F61D25FD09008556FA /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		8B51F6FB1D25FD09008556FA /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		8B51F6FE1D25FD09008556FA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		8B51F7001D25FD09008556FA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8B51F7061D25FDE9008556FA /* Podfile */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = Podfile; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		8B51F7081D2609F1008556FA /* MapKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MapKit.framework; path = System/Library/Frameworks/MapKit.framework; sourceTree = SDKROOT; };
+		8B51F70A1D261B8F008556FA /* BarAPI.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BarAPI.swift; sourceTree = "<group>"; };
+		8B51F70C1D26210B008556FA /* Venue.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Venue.swift; sourceTree = "<group>"; };
+		8B51F70E1D262321008556FA /* BarAnnotation.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BarAnnotation.swift; sourceTree = "<group>"; };
+		8B51F7161D26CF33008556FA /* HomeViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
+		8B51F7181D26D1A5008556FA /* GoViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GoViewController.swift; sourceTree = "<group>"; };
+		8BE4D3241D87624100FC501B /* FoodViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FoodViewController.swift; sourceTree = "<group>"; };
+		8BE4D3261D8765EE00FC501B /* RestaurantAPI.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RestaurantAPI.swift; sourceTree = "<group>"; };
+		8BE4D3281D876DEC00FC501B /* RestaurantAnnotation.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RestaurantAnnotation.swift; sourceTree = "<group>"; };
+		8BE4D32B1D876F2B00FC501B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		8BE4D32D1D876F5800FC501B /* MapViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MapViewController.swift; sourceTree = "<group>"; };
+		C2FA0198A12CC83342676567 /* Pods-gowhere-01.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-gowhere-01.debug.xcconfig"; path = "Pods/Target Support Files/Pods-gowhere-01/Pods-gowhere-01.debug.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		8B51F6EE1D25FD09008556FA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8B51F7091D2609F1008556FA /* MapKit.framework in Frameworks */,
+				E8402A824C0FA9AE78456FA0 /* Pods_gowhere_01.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		415FE06C48A5539364CD10D8 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				C2FA0198A12CC83342676567 /* Pods-gowhere-01.debug.xcconfig */,
+				50FEF910DD76F69190CA6901 /* Pods-gowhere-01.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		8B51F6E81D25FD09008556FA = {
+			isa = PBXGroup;
+			children = (
+				8B51F7061D25FDE9008556FA /* Podfile */,
+				8B51F6F31D25FD09008556FA /* gowhere-01 */,
+				8B51F6F21D25FD09008556FA /* Products */,
+				415FE06C48A5539364CD10D8 /* Pods */,
+				CB021E9E9287C2E6DD4C368B /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		8B51F6F21D25FD09008556FA /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				8B51F6F11D25FD09008556FA /* gowhere-01.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		8B51F6F31D25FD09008556FA /* gowhere-01 */ = {
+			isa = PBXGroup;
+			children = (
+				8B51F7131D263021008556FA /* Controller */,
+				8B51F7121D263019008556FA /* Model */,
+				8B51F7111D263004008556FA /* View */,
+				8B51F7101D262FE3008556FA /* Supporting Files */,
+			);
+			path = "gowhere-01";
+			sourceTree = "<group>";
+		};
+		8B51F7101D262FE3008556FA /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				8B51F6F41D25FD09008556FA /* AppDelegate.swift */,
+				8B51F70A1D261B8F008556FA /* BarAPI.swift */,
+				8BE4D3261D8765EE00FC501B /* RestaurantAPI.swift */,
+				8B51F7001D25FD09008556FA /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		8B51F7111D263004008556FA /* View */ = {
+			isa = PBXGroup;
+			children = (
+				8B51F70C1D26210B008556FA /* Venue.swift */,
+				8B51F70E1D262321008556FA /* BarAnnotation.swift */,
+				8BE4D3281D876DEC00FC501B /* RestaurantAnnotation.swift */,
+			);
+			name = View;
+			sourceTree = "<group>";
+		};
+		8B51F7121D263019008556FA /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				8B51F6FB1D25FD09008556FA /* Assets.xcassets */,
+				8BE4D32A1D876F2B00FC501B /* Main.storyboard */,
+				8B51F6FD1D25FD09008556FA /* LaunchScreen.storyboard */,
+			);
+			name = Model;
+			sourceTree = "<group>";
+		};
+		8B51F7131D263021008556FA /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				8B51F6F61D25FD09008556FA /* ViewController.swift */,
+				8B51F7161D26CF33008556FA /* HomeViewController.swift */,
+				8B51F7181D26D1A5008556FA /* GoViewController.swift */,
+				8BE4D3241D87624100FC501B /* FoodViewController.swift */,
+				8BE4D32D1D876F5800FC501B /* MapViewController.swift */,
+			);
+			name = Controller;
+			sourceTree = "<group>";
+		};
+		CB021E9E9287C2E6DD4C368B /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				8B51F7081D2609F1008556FA /* MapKit.framework */,
+				5F7DC3ADCB7A64452A4337F1 /* Pods_gowhere_01.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		8B51F6F01D25FD09008556FA /* gowhere-01 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8B51F7031D25FD09008556FA /* Build configuration list for PBXNativeTarget "gowhere-01" */;
+			buildPhases = (
+				0A82FC893E87F719E4A9355E /* [CP] Check Pods Manifest.lock */,
+				8B51F6ED1D25FD09008556FA /* Sources */,
+				8B51F6EE1D25FD09008556FA /* Frameworks */,
+				8B51F6EF1D25FD09008556FA /* Resources */,
+				4921A9D286725A2127C7D3F9 /* [CP] Embed Pods Frameworks */,
+				DAF1AAD910147219D49CD0E3 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "gowhere-01";
+			productName = "gowhere-01";
+			productReference = 8B51F6F11D25FD09008556FA /* gowhere-01.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		8B51F6E91D25FD09008556FA /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0730;
+				LastUpgradeCheck = 0800;
+				ORGANIZATIONNAME = "Sean Champagne";
+				TargetAttributes = {
+					8B51F6F01D25FD09008556FA = {
+						CreatedOnToolsVersion = 7.3.1;
+						DevelopmentTeam = 9EE26NTZPB;
+						LastSwiftMigration = 0800;
+					};
+				};
+			};
+			buildConfigurationList = 8B51F6EC1D25FD09008556FA /* Build configuration list for PBXProject "gowhere-01" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 8B51F6E81D25FD09008556FA;
+			productRefGroup = 8B51F6F21D25FD09008556FA /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				8B51F6F01D25FD09008556FA /* gowhere-01 */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		8B51F6EF1D25FD09008556FA /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8B51F6FF1D25FD09008556FA /* LaunchScreen.storyboard in Resources */,
+				8B51F6FC1D25FD09008556FA /* Assets.xcassets in Resources */,
+				8B51F7071D25FDE9008556FA /* Podfile in Resources */,
+				8BE4D32C1D876F2B00FC501B /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		0A82FC893E87F719E4A9355E /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		4921A9D286725A2127C7D3F9 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-gowhere-01/Pods-gowhere-01-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		DAF1AAD910147219D49CD0E3 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-gowhere-01/Pods-gowhere-01-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		8B51F6ED1D25FD09008556FA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8BE4D32E1D876F5800FC501B /* MapViewController.swift in Sources */,
+				8B51F70F1D262321008556FA /* BarAnnotation.swift in Sources */,
+				8B51F6F71D25FD09008556FA /* ViewController.swift in Sources */,
+				8BE4D3251D87624100FC501B /* FoodViewController.swift in Sources */,
+				8B51F70D1D26210B008556FA /* Venue.swift in Sources */,
+				8B51F6F51D25FD09008556FA /* AppDelegate.swift in Sources */,
+				8BE4D3291D876DEC00FC501B /* RestaurantAnnotation.swift in Sources */,
+				8BE4D3271D8765EE00FC501B /* RestaurantAPI.swift in Sources */,
+				8B51F70B1D261B8F008556FA /* BarAPI.swift in Sources */,
+				8B51F7171D26CF33008556FA /* HomeViewController.swift in Sources */,
+				8B51F7191D26D1A5008556FA /* GoViewController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		8B51F6FD1D25FD09008556FA /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				8B51F6FE1D25FD09008556FA /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+		8BE4D32A1D876F2B00FC501B /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				8BE4D32B1D876F2B00FC501B /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		8B51F7011D25FD09008556FA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		8B51F7021D25FD09008556FA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		8B51F7041D25FD09008556FA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = C2FA0198A12CC83342676567 /* Pods-gowhere-01.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				INFOPLIST_FILE = "gowhere-01/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "Champagne.gowhere-01";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Debug;
+		};
+		8B51F7051D25FD09008556FA /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 50FEF910DD76F69190CA6901 /* Pods-gowhere-01.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				INFOPLIST_FILE = "gowhere-01/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "Champagne.gowhere-01";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		8B51F6EC1D25FD09008556FA /* Build configuration list for PBXProject "gowhere-01" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8B51F7011D25FD09008556FA /* Debug */,
+				8B51F7021D25FD09008556FA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8B51F7031D25FD09008556FA /* Build configuration list for PBXNativeTarget "gowhere-01" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8B51F7041D25FD09008556FA /* Debug */,
+				8B51F7051D25FD09008556FA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 8B51F6E91D25FD09008556FA /* Project object */;
+}

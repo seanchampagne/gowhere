@@ -1,0 +1,20 @@
+PODS:
+  - QuadratTouch (1.1.1)
+  - Realm (1.0.1):
+    - Realm/Headers (= 1.0.1)
+  - Realm/Headers (1.0.1)
+  - RealmSwift (1.0.1):
+    - Realm (= 1.0.1)
+
+DEPENDENCIES:
+  - QuadratTouch (>= 1.0)
+  - RealmSwift
+
+SPEC CHECKSUMS:
+  QuadratTouch: 296d83c63a4328f6f40af9fc728fe24f0e3b00d4
+  Realm: 2e15e39d35b08abb529e212ed5d8af107b5236c8
+  RealmSwift: d73ea2af08c3676dbdd5e4b669651a0f492162a4
+
+PODFILE CHECKSUM: ce0135204da76ebd2fb0bfb01180bf2556e8b6b5
+
+COCOAPODS: 1.0.1
